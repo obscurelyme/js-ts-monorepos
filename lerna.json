@@ -8,7 +8,10 @@
     "parcel-bundler"
   ],
   "command": {
-    "conventionalCommits": true,
-    "registry": "http://localhost:4873/"
+    "publish": {
+      "conventionalCommits": true,
+      "registry": "http://localhost:4873/",
+      "message": "chore(release): %s"
+    }
   }
 }
