@@ -1,7 +1,7 @@
 # JS/TS Monorepos
 
-[![Node.js CI (solution)](https://github.com/mike-north/js-ts-monorepos/workflows/Node.js%20CI%20(solution)/badge.svg)](https://github.com/mike-north/js-ts-monorepos/actions?query=workflow%3A%22Node.js+CI+%28solution%29%22)
-[![TypeScript@Next tests (solution)](https://github.com/mike-north/js-ts-monorepos/workflows/TypeScript@Next%20tests%20(solution)/badge.svg)](https://github.com/mike-north/js-ts-monorepos/actions?query=workflow%3A%22TypeScript%40Next+tests+%28solution%29%22)
+[![Node.js CI (solution)](<https://github.com/mike-north/js-ts-monorepos/workflows/Node.js%20CI%20(solution)/badge.svg>)](https://github.com/mike-north/js-ts-monorepos/actions?query=workflow%3A%22Node.js+CI+%28solution%29%22)
+[![TypeScript@Next tests (solution)](<https://github.com/mike-north/js-ts-monorepos/workflows/TypeScript@Next%20tests%20(solution)/badge.svg>)](https://github.com/mike-north/js-ts-monorepos/actions?query=workflow%3A%22TypeScript%40Next+tests+%28solution%29%22)
 
 ## What's this course about?
 
@@ -27,13 +27,17 @@ Connection to github.com closed.
 ### Tools
 
 Next, make sure you have installed [volta](http://volta.sh/) which ensures you have the right version of node and yarn for this project. You can run:
+
 ```
 volta install node
 ```
+
 and then:
+
 ```
 volta install yarn
 ```
+
 To get the right versions for this workshop.
 
 We also strongly recommend the use of [Visual Studio Code](https://code.visualstudio.com/) as an authoring tool. If you use something else, you're on your own.
@@ -81,3 +85,27 @@ By default, the app is served on https://localhost:1234.
 ## Licensing
 
 The code in this project is licensed as [BSD-2-Clause](https://opensource.org/licenses/BSD-2-Clause) license, and the written content in the ./notes folder is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+## Publishing
+
+Due to the presence of husky and commit hooks, we need to work around Lerna auto generating a commit on publish. There are two ways to handle this.
+
+The first way is to simply disable git hooks on lerna publish like so...
+
+```sh
+lerna publish --no-commit-hooks
+```
+
+Alternatively you can modify the lerna.json file to contain an explicit message that will pass your husky commit checks...
+
+```json
+{
+  ...
+  "command": {
+    "publish": {
+      ...
+      "message": "chore: publish my build %s"
+    }
+  }
+}
+```
