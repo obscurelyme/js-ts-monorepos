@@ -26,5 +26,6 @@
   "scripty": {
     "path": "../../scripts/packages",
     "windowsPath": "../../scripts-win/packages"
-  }
+  },
+  "gitHead": "11a04e6d09e450bd7a243fa62c3e58b709791e20"
 }
