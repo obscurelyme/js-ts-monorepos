@@ -13,8 +13,7 @@
     "build": "scripty",
     "test": "scripty",
     "lint": "scripty",
-    "clean": "scripty",
-    "prepare": "husky install"
+    "clean": "scripty"
   },
   "volta": {
     "node": "20.10.0",
@@ -33,7 +32,7 @@
     "@typescript-eslint/parser": "^6.15.0",
     "commitlint": "^18.4.3",
     "eslint": "^8.56.0",
-    "husky": "^8.0.3",
+    "husky": "^4.3.8",
     "lerna": "^8.0.1",
     "lerna-changelog": "^2.2.0",
     "rimraf": "^3.0.2",
