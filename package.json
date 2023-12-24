@@ -13,8 +13,7 @@
     "build": "scripty",
     "test": "scripty",
     "lint": "scripty",
-    "clean": "scripty",
-    "publish": "scripty"
+    "clean": "scripty"
   },
   "volta": {
     "node": "20.10.0",

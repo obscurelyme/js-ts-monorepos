@@ -18,6 +18,7 @@ export function isTypedArray<T>(
   if(arr.some((item) => !check(item))) {
     return false;
   }
+  // some comment
   return true;
 }
 
