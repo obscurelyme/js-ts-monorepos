@@ -72,3 +72,7 @@ export function isMessage(arg: any): arg is IMessage {
 export function testMe(): string {
   return "hello";
 }
+
+export function testMe2(): string {
+  return "hello 2";
+}
