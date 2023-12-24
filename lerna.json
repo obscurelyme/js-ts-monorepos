@@ -6,5 +6,9 @@
   "version": "independent",
   "nohoist": [
     "parcel-bundler"
-  ]
+  ],
+  "command": {
+    "conventionalCommits": true,
+    "registry": "http://localhost:4873/"
+  }
 }
