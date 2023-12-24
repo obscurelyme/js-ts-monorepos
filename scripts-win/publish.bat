@@ -1,0 +1,1 @@
+lerna publish --no-commit-hooks

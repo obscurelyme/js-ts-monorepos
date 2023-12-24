@@ -10,8 +10,7 @@
   "command": {
     "publish": {
       "conventionalCommits": true,
-      "registry": "http://localhost:4873/",
-      "message": "chore: %s"
+      "registry": "http://localhost:4873/"
     }
   }
 }
