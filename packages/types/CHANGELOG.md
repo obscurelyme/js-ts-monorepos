@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.1](https://github.com/obscurelyme/js-ts-monorepos/compare/@shlack/types@0.6.0...@shlack/types@0.6.1) (2023-12-24)
+
+
+### Bug Fixes
+
+* **types:** comment fix ([b2e16be](https://github.com/obscurelyme/js-ts-monorepos/commit/b2e16be201dd65d237820053d1faf7a008ffe4df))
+
+
+
+
+
 # [0.6.0](https://github.com/obscurelyme/js-ts-monorepos/compare/@shlack/types@0.5.0...@shlack/types@0.6.0) (2023-12-24)
 
 
