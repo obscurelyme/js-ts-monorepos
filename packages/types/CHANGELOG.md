@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/obscurelyme/js-ts-monorepos/compare/@shlack/types@0.5.0...@shlack/types@0.6.0) (2023-12-24)
+
+
+### Features
+
+* **types:** added a new feature testMe2 ([3e70023](https://github.com/obscurelyme/js-ts-monorepos/commit/3e7002324326f6ec324f2d8a7e08411ea0794bdc))
+* **types:** export the new functions ([2889bc4](https://github.com/obscurelyme/js-ts-monorepos/commit/2889bc4b4d6b6810629e221339832e6b3d4ddfeb))
+
+
+
+
+
+
 # 0.5.0 (2023-12-24)
 
 
