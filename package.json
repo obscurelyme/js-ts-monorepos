@@ -2,8 +2,8 @@
   "name": "js-ts-monotrepos",
   "version": "0.1.0",
   "main": "index.js",
-  "repository": "git@github.com:mike-north/js-ts-monorepos.git",
-  "author": "Mike North <michael.l.north@gmail.com>",
+  "repository": "git@github.com:obscurelyme/js-ts-monorepos.git",
+  "author": "Mackenzie Greco",
   "license": "BSD-2-Clause",
   "private": true,
   "workspaces": [
