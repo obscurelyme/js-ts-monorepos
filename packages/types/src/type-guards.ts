@@ -68,3 +68,7 @@ export function isMessage(arg: any): arg is IMessage {
     typeof arg.body === "string"
   );
 }
+
+export function testMe(): string {
+  return "hello";
+}
